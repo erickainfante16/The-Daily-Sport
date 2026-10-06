@@ -1,0 +1,69 @@
+<main>
+  <!-- Encabezado de la sección -->
+  <header class="seccion-noticias">
+    <h1>Noticias Deportivas</h1>
+    <nav aria-label="Categorías de deportes">
+      <ul>
+        <li><a href="/noticias/futbol">Fútbol</a></li>
+        <li><a href="/noticias/basquet">Básquet</a></li>
+        <li><a href="/noticias/tenis">Tenis</a></li>
+        <li><a href="/noticias/f1">F1</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Noticia destacada -->
+  <section aria-labelledby="destacada">
+    <h2 id="destacada">Destacada</h2>
+    <article class="noticia-principal">
+      <figure>
+        <img src="img/partido-final.jpg" alt="Jugadores celebrando el título">
+        <figcaption>Celebración tras la final</figcaption>
+      </figure>
+      <h3><a href="/noticias/final-champions">Equipo X gana la final en el último minuto</a></h3>
+      <p>Resumen breve de la noticia en dos o tres líneas...</p>
+      <footer>
+        <time datetime="2026-10-06T20:30">6 de octubre, 2026</time>
+        <span>Por <a href="/autor/juan-perez">Juan Pérez</a></span>
+        <span>Fútbol</span>
+      </footer>
+    </article>
+  </section>
+
+  <!-- Listado de noticias -->
+  <section aria-labelledby="ultimas">
+    <h2 id="ultimas">Últimas noticias</h2>
+
+    <article class="noticia">
+      <img src="img/noticia1.jpg" alt="Descripción breve">
+      <h3><a href="/noticias/xyz">Título de la noticia 1</a></h3>
+      <p>Resumen breve...</p>
+      <footer>
+        <time datetime="2026-10-06T18:00">6 oct 2026</time>
+        <span>Básquet</span>
+      </footer>
+    </article>
+
+    <article class="noticia">
+      <img src="img/noticia2.jpg" alt="Descripción breve">
+      <h3><a href="/noticias/abc">Título de la noticia 2</a></h3>
+      <p>Resumen breve...</p>
+      <footer>
+        <time datetime="2026-10-06T15:20">6 oct 2026</time>
+        <span>Tenis</span>
+      </footer>
+    </article>
+
+    <!-- Más artículos... -->
+  </section>
+
+  <!-- Paginación -->
+  <nav aria-label="Paginación de noticias">
+    <ul>
+      <li><a href="?pagina=1">1</a></li>
+      <li><a href="?pagina=2">2</a></li>
+      <li><a href="?pagina=3">3</a></li>
+      <li><a href="?pagina=2">Siguiente →</a></li>
+    </ul>
+  </nav>
+</main>
