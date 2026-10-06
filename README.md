@@ -4,7 +4,7 @@
 Descripción del Proyecto
 The Daily Sport es un sitio web enfocado en la difusión de noticias, artículos de opinión y novedades sobre múltiples disciplinas deportivas. Este repositorio recopila el trabajo colaborativo desarrollado durante la simulación de Sprint bajo el marco de trabajo SCRUM.
 
-👥 Equipo de Trabajo y Roles
+Equipo de Trabajo y Roles
 Scrum Master: Ericka 
 Product Owner: Alexander 
 Equipo de Desarrollo:
